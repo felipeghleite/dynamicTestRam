@@ -1539,7 +1539,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xbd ./common/io.o
  .debug_macro   0x00000000       0x16 ./common/io.o
  .debug_macro   0x00000000      0x14a ./common/io.o
- .debug_line    0x00000000      0x4b9 ./common/io.o
+ .debug_line    0x00000000      0x4c5 ./common/io.o
  .debug_str     0x00000000    0x17170 ./common/io.o
  .comment       0x00000000       0x71 ./common/io.o
  .ARM.attributes

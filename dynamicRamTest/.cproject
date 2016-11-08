@@ -51,33 +51,33 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.1664322252" name="Cross ARM GNU Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.1807835785" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" value="true" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.920949757" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/common&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/cpu&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/platforms&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/dynamicRamTest/Sources&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/dynamicRamTest/Includes&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/acmp&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/adc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/bitband&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/bme&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/can&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/crc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/ftm&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/gpio&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/ics&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/iic&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/kbi&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/nvm&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/pit&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/PMC&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/pwt&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/rtc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/sim&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/spi&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/uart&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/wdog&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\Data\Workspace Kinetis IDE\kexx_drv_lib\src\cpu\headers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/cpu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/platforms&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/dynamicRamTest/Sources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/dynamicRamTest/Includes&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/acmp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/adc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/bitband&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/bme&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/can&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/crc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/ftm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/gpio&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/ics&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/iic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/kbi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/nvm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/pit&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/PMC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/pwt&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/rtc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/sim&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/spi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/uart&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/wdog&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/cpu/headers&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.verbose.1304026796" name="Verbose (-v)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.verbose" value="true" valueType="boolean"/>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1382693858" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
@@ -85,64 +85,64 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1247907514" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.1344668346" name="Language standard" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.c99" valueType="enumerated"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.1263853248" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/common&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/cpu&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/platforms&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/dynamicRamTest/Sources&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/dynamicRamTest/Includes&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/acmp&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/adc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/bitband&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/bme&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/can&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/crc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/ftm&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/gpio&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/ics&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/iic&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/kbi&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/nvm&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/pit&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/PMC&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/pwt&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/rtc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/sim&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/spi&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/uart&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/wdog&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/cpu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/platforms&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/dynamicRamTest/Sources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/dynamicRamTest/Includes&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/acmp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/adc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/bitband&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/bme&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/can&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/crc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/ftm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/gpio&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/ics&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/iic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/kbi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/nvm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/pit&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/PMC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/pwt&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/rtc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/sim&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/spi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/uart&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/wdog&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.verbose.1021126073" name="Verbose (-v)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.verbose" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.366513624" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
 							</tool>
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.453297683" name="Cross ARM C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths.646084879" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/common&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/cpu&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/platforms&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/dynamicRamTest/Sources&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/dynamicRamTest/Includes&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/acmp&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/adc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/bitband&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/bme&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/can&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/crc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/ftm&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/gpio&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/ics&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/iic&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/kbi&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/nvm&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/pit&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/PMC&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/pwt&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/rtc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/sim&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/spi&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/uart&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/wdog&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/cpu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/platforms&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/dynamicRamTest/Sources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/dynamicRamTest/Includes&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/acmp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/adc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/bitband&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/bme&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/can&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/crc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/ftm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/gpio&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/ics&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/iic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/kbi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/nvm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/pit&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/PMC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/pwt&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/rtc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/sim&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/spi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/uart&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers/wdog&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/kexx_drv_lib/src/drivers&quot;"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.1729910929" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
 							</tool>
@@ -177,15 +177,6 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<fileInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.549565983.1326927799" name="wdog.c" rcbsApplicability="disable" resourcePath="drivers/wdog/wdog.c" toolsToInvoke="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1247907514.314822555">
-						<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1247907514.314822555" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1247907514"/>
-						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.98290569" name="Resource Custom Build Step">
-							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1981822278" name="Resource Custom Build Step Input Type">
-								<additionalInput kind="additionalinputdependency" paths=""/>
-							</inputType>
-							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1595955313" name="Resource Custom Build Step Output Type"/>
-						</tool>
-					</fileInfo>
 					<sourceEntries>
 						<entry excluding="gpio|cpu|Drivers|drivers|common" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry excluding="startup.c|uif.c|alloc.c|printf.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="common"/>

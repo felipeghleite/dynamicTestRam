@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.549565983">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.549565983" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager" point="org.eclipse.cdt.core.ScannerInfoProvider"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="dynamicRamTest" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="${cross_rm} -rf" description="" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.549565983" name="Debug" parent="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug">
+					<folderInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.549565983." name="/" resourcePath="">
+						<toolChain id="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.debug.1240106042" name="Cross ARM GCC" superClass="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.debug">
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.204450437" name="Optimization Level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level" value="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.none" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.2027622463" name="Message length (-fmessage-length=0)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.619255227" name="'char' is signed (-fsigned-char)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1069326402" name="Function sections (-ffunction-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.1833403861" name="Data sections (-fdata-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.2066830326" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level" value="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.max" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1863362435" name="Debug format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.2146505475" name="ARM family" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcpu.cortex-m0plus" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1956250066" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name" value="GNU Tools for ARM Embedded Processors" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.127468496" name="Prefix" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix" value="arm-none-eabi-" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1498075317" name="C compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c" value="gcc" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1408099216" name="C++ compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp" value="g++" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.428268470" name="Hex/Bin converter" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy" value="objcopy" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1073623128" name="Listing generator" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump" value="objdump" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1220292206" name="Size command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size" value="size" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.44109755" name="Build command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make" value="make" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1796454652" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm" value="rm" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1611682086" name="Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar" value="ar" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.642979217" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.noinlinefunctions.1441861414" name="Do not inline functions (-fno-inline-functions)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.noinlinefunctions" value="false" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.prof.1122667414" name="Generate prof information (-p)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.prof" value="false" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1057210901" name="Enable all common warnings (-Wall)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.975154712" name="Enable extra warnings (-Wextra)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.nocommon.1590280235" name="No common unitialized (-fno-common)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.nocommon" value="false" valueType="boolean"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform.1197685107" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/dynamicRamTest}/Debug" id="ilg.gnuarmeclipse.managedbuild.cross.builder.915084550" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Debug"/>
+								</outputEntries>
+							</builder>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.1664322252" name="Cross ARM GNU Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.1807835785" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.920949757" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/cpu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/platforms&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/dynamicRamTest/Sources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/dynamicRamTest/Includes&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/acmp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/adc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/bitband&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/bme&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/can&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/crc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/ftm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/gpio&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/ics&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/iic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/kbi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/nvm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/pit&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/PMC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/pwt&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/rtc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/sim&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/spi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/uart&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/wdog&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Data\Workspace Kinetis IDE\kexx_drv_lib\src\cpu\headers&quot;"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.verbose.1304026796" name="Verbose (-v)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.verbose" value="true" valueType="boolean"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1382693858" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1247907514" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.1344668346" name="Language standard" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.c99" valueType="enumerated"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.1263853248" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/cpu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/platforms&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/dynamicRamTest/Sources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/dynamicRamTest/Includes&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/acmp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/adc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/bitband&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/bme&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/can&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/crc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/ftm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/gpio&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/ics&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/iic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/kbi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/nvm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/pit&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/PMC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/pwt&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/rtc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/sim&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/spi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/uart&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/wdog&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers&quot;"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.verbose.1021126073" name="Verbose (-v)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.verbose" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.366513624" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.453297683" name="Cross ARM C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths.646084879" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/cpu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/platforms&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/dynamicRamTest/Sources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/dynamicRamTest/Includes&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/acmp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/adc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/bitband&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/bme&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/can&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/crc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/ftm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/gpio&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/ics&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/iic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/kbi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/nvm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/pit&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/PMC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/pwt&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/rtc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/sim&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/spi&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/uart&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/wdog&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.1729910929" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.285248797" name="Cross ARM C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections.1785028234" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.1275503043" name="Cross ARM C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections.737457590" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.paths.1479289631" name="Library search path (-L)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.paths"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.other.471505225" name="Other linker flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.other" value="-specs=nano.specs -specs=nosys.specs" valueType="string"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.scriptfile.334561845" name="Script files (-T)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.scriptfile" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Project_Settings/Linker_Files/MKE02Z64xxx2_flash.ld}&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.input.1512742440" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.321528354" name="Cross ARM GNU Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1059387704" name="Cross ARM GNU Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.465574073" name="Cross ARM GNU Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source.1891789312" name="Display source (--source|-S)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders.884727613" name="Display all headers (--all-headers|-x)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle.235903682" name="Demangle names (--demangle|-C)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers.524992756" name="Display line numbers (--line-numbers|-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide.1906231945" name="Wide lines (--wide|-w)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.1190756532" name="Cross ARM GNU Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.285421692" name="Size format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format" value="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.sysv" valueType="enumerated"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.totals.1365322453" name="Show totals" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.totals" value="false" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.other.667625920" name="Other flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.other" value="-x" valueType="string"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.549565983.1326927799" name="wdog.c" rcbsApplicability="disable" resourcePath="drivers/wdog/wdog.c" toolsToInvoke="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1247907514.314822555">
+						<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1247907514.314822555" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1247907514"/>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.98290569" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1981822278" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1595955313" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<sourceEntries>
+						<entry excluding="gpio|cpu|Drivers|drivers|common" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="startup.c|uif.c|alloc.c|printf.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="common"/>
+						<entry excluding="start.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="cpu"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="drivers"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="dynamicRamTest.ilg.gnuarmeclipse.managedbuild.cross.target.elf.621063778" name="Executable" projectType="ilg.gnuarmeclipse.managedbuild.cross.target.elf"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.549565983;ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.549565983.;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.453297683;ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.1729910929">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.549565983;ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.549565983.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1247907514;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.366513624">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/dynamicRamTest"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>

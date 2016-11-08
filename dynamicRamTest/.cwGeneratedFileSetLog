@@ -1,0 +1,11 @@
+Sources/main.c
+Includes/MKE02Z2.h
+Project_Settings/Startup_Code/system_MKE02Z2.c
+Includes/system_MKE02Z2.h
+Project_Settings/Startup_Code/startup_MKE02Z2.S
+Project_Settings/Linker_Files/MKE02Z64xxx2_flash.ld
+Includes/core_cm0plus.h
+Includes/core_cm4.h
+Includes/core_cm4_simd.h
+Includes/core_cmFunc.h
+Includes/core_cmInstr.h

@@ -28,22 +28,22 @@
 		<link>
 			<name>common</name>
 			<type>2</type>
-			<location>D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/common</location>
+			<location>WORKSPACE_LOC/kexx_drv_lib/src/common</location>
 		</link>
 		<link>
 			<name>cpu</name>
 			<type>2</type>
-			<location>D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/cpu</location>
+			<location>WORKSPACE_LOC/kexx_drv_lib/src/cpu</location>
 		</link>
 		<link>
 			<name>drivers</name>
 			<type>2</type>
-			<location>D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers</location>
+			<locationURI>WORKSPACE_LOC/kexx_drv_lib/src/drivers</locationURI>
 		</link>
 		<link>
 			<name>gpio</name>
 			<type>2</type>
-			<location>D:/Data/Workspace Kinetis IDE/kexx_drv_lib/src/drivers/gpio</location>
+			<location>WORKSPACE_LOC/kexx_drv_lib/src/drivers/gpio</location>
 		</link>
 	</linkedResources>
 </projectDescription>

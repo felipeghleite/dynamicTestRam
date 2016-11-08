@@ -1,0 +1,34 @@
+***************
+*** 65,71 ****
+          </option>
+          <option>
+            <name>OGCoreOrChip</name>
+-           <state>0</state>
+          </option>
+          <option>
+            <name>GRuntimeLibSelect</name>
+--- 64,70 ----
+          </option>
+          <option>
+            <name>OGCoreOrChip</name>
++           <state>1</state>
+          </option>
+          <option>
+            <name>GRuntimeLibSelect</name>
+***************
+*** 99,105 ****
+          </option>
+          <option>
+            <name>OGChipSelectEditMenu</name>
+-           <state>Default	None</state>
+          </option>
+          <option>
+            <name>GenLowLevelInterface</name>
+--- 98,104 ----
+          </option>
+          <option>
+            <name>OGChipSelectEditMenu</name>
++           <state>MKE04Z8xxx4	Freescale MKE04Z8xxx4</state>
+          </option>
+          <option>
+            <name>GenLowLevelInterface</name>

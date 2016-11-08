@@ -1,0 +1,14 @@
+del *.o
+del *.d
+del *.crf
+del *.i
+del *.__i
+del *.bak
+del *.s19
+del *.lst
+del *.ini
+del *.dep
+del *.hex
+del *.htm
+del *.map
+del *.axf

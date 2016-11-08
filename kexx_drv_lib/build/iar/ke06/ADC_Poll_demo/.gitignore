@@ -1,0 +1,9 @@
+*.dep
+*.log
+*.board
+settings/
+FLASH_8KB_PFLASH/
+FLASH_64KB_PFLASH/
+FLASH_32KB_PFLASH/
+RAM_16KB/
+RAM_32KB/
